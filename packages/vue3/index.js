@@ -7,9 +7,7 @@ module.exports = {
         parser: '@typescript-eslint/parser',
       },
       rules: {
-        'no-unused-vars': 'off',
         'no-undef': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
   ],
@@ -18,10 +16,7 @@ module.exports = {
     '@josephanson/eslint-config-ts',
   ],
   rules: {
-    'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
-    'vue/require-prop-types': 'off',
-    'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
   },
 }
