@@ -16,9 +16,9 @@ importers:
 
   packages/all:
     specifiers:
-      '@josephanson/eslint-config-prettier': ^0.4.0
-      '@josephanson/eslint-config-react': ^0.4.0
-      '@josephanson/eslint-config-vue': ^0.4.0
+      '@josephanson/eslint-config-prettier': ^0.4.1
+      '@josephanson/eslint-config-react': ^0.4.1
+      '@josephanson/eslint-config-vue': ^0.4.1
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -94,18 +94,20 @@ importers:
       eslint-plugin-prettier: ^4.0.0
       eslint-plugin-yml: ^0.14.0
       prettier: ^2.5.1
+      prettier-plugin-tailwindcss: ^0.1.8
     dependencies:
       eslint-config-prettier: 8.5.0_eslint@8.10.0
       eslint-define-config: 1.2.5
       eslint-plugin-prettier: 4.0.0_f3d13a703a9c1079e3d1af6044603beb
       eslint-plugin-yml: 0.14.0_eslint@8.10.0
       prettier: 2.5.1
+      prettier-plugin-tailwindcss: 0.1.8_prettier@2.5.1
     devDependencies:
       eslint: 8.10.0
 
   packages/react:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.4.0
+      '@josephanson/eslint-config-ts': ^0.4.1
       eslint: ^8.10.0
       eslint-plugin-react: ^7.29.3
       react: ^17.0.2
@@ -120,7 +122,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@josephanson/eslint-config-basic': ^0.4.0
+      '@josephanson/eslint-config-basic': ^0.4.1
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -133,7 +135,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.4.0
+      '@josephanson/eslint-config-ts': ^0.4.1
       eslint: ^8.10.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -144,7 +146,7 @@ importers:
 
   packages/vue3:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.4.0
+      '@josephanson/eslint-config-ts': ^0.4.1
       eslint: ^8.10.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -4516,6 +4518,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
+    dev: false
+
+  /prettier-plugin-tailwindcss/0.1.8_prettier@2.5.1:
+    resolution: {integrity: sha512-hwarSBCswAXa+kqYtaAkFr3Vop9o04WOyZs0qo3NyvW8L7f1rif61wRyq0+ArmVThOuRBcJF5hjGXYk86cwemg==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.5.1
     dev: false
 
   /prettier/2.5.1:
