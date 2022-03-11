@@ -1,6 +1,6 @@
 {
   "name": "@josephanson/eslint-config-prettier",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -23,8 +23,8 @@
     "eslint-define-config": "^1.2.5",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-yml": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.1.8",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8"
   },
   "devDependencies": {
     "eslint": "8.10.0"

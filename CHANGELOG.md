@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/JosephAnson/eslint-config-vue-2/compare/v0.4.1...v0.5.0) (2022-03-11)
+
+
+### Features
+
+* add tailwind prettier plugin ([c91fc57](https://github.com/JosephAnson/eslint-config-vue-2/commit/c91fc5776077dd388bf5859f76c031c5f983ea9e))
+
+
+
+
+
 ## [0.4.1](https://github.com/JosephAnson/eslint-config-vue-2/compare/v0.4.0...v0.4.1) (2022-03-11)
 
 
