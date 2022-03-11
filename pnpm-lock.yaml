@@ -16,8 +16,9 @@ importers:
 
   packages/all:
     specifiers:
-      '@josephanson/eslint-config-react': ^0.3.1
-      '@josephanson/eslint-config-vue': ^0.3.1
+      '@josephanson/eslint-config-prettier': ^0.4.0
+      '@josephanson/eslint-config-react': ^0.4.0
+      '@josephanson/eslint-config-vue': ^0.4.0
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -34,6 +35,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
     dependencies:
+      '@josephanson/eslint-config-prettier': link:../prettier
       '@josephanson/eslint-config-react': link:../react
       '@josephanson/eslint-config-vue': link:../vue3
       '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
@@ -103,7 +105,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.3.1
+      '@josephanson/eslint-config-ts': ^0.4.0
       eslint: ^8.10.0
       eslint-plugin-react: ^7.29.3
       react: ^17.0.2
@@ -118,7 +120,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@josephanson/eslint-config-basic': ^0.3.0
+      '@josephanson/eslint-config-basic': ^0.4.0
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -131,7 +133,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.3.1
+      '@josephanson/eslint-config-ts': ^0.4.0
       eslint: ^8.10.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -142,7 +144,7 @@ importers:
 
   packages/vue3:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.3.1
+      '@josephanson/eslint-config-ts': ^0.4.0
       eslint: ^8.10.0
       eslint-plugin-vue: ^8.5.0
     dependencies:

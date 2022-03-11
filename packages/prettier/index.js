@@ -5,6 +5,13 @@ module.exports = defineConfig({
   extends: ['plugin:yml/prettier', 'prettier'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'warn',
+    'prettier/prettier': [
+      'error',
+      {
+        semi: false,
+        singleQuote: true,
+        quoteProps: 'consistent',
+      },
+    ],
   },
 })

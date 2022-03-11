@@ -11,10 +11,7 @@ module.exports = {
       },
     },
   ],
-  extends: [
-    'plugin:vue/recommended',
-    '@josephanson/eslint-config-ts',
-  ],
+  extends: ['plugin:vue/recommended', '@josephanson/eslint-config-ts'],
   rules: {
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',
