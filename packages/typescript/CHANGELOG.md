@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/JosephAnson/eslint-config-vue-2/compare/v0.2.0...v0.3.0) (2022-03-11)
+
+
+### Features
+
+* update typescript rules ([d7d9fce](https://github.com/JosephAnson/eslint-config-vue-2/commit/d7d9fce552a0b2d727a50f4ba22e105ba7bf0bce))
+
+
+
+
+
 # 0.2.0 (2022-03-11)
 
 
