@@ -91,17 +91,17 @@ importers:
   packages/prettier:
     specifiers:
       eslint: 8.10.0
+      eslint-config-prettier: ^8.5.0
       eslint-define-config: ^1.2.5
       eslint-plugin-prettier: ^4.0.0
       eslint-plugin-yml: ^0.14.0
       prettier: ^2.5.1
-      prettier-plugin-tailwindcss: ^0.1.8
     dependencies:
+      eslint-config-prettier: 8.5.0_eslint@8.10.0
       eslint-define-config: 1.2.5
-      eslint-plugin-prettier: 4.0.0_eslint@8.10.0+prettier@2.5.1
+      eslint-plugin-prettier: 4.0.0_f3d13a703a9c1079e3d1af6044603beb
       eslint-plugin-yml: 0.14.0_eslint@8.10.0
       prettier: 2.5.1
-      prettier-plugin-tailwindcss: 0.1.8_prettier@2.5.1
     devDependencies:
       eslint: 8.10.0
 
@@ -2152,6 +2152,15 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.10.0
+    dev: false
+
   /eslint-config-standard/17.0.0-1_4ef2f4f4771997ec726ac5d259d18bf3:
     resolution: {integrity: sha512-aqRG58dqoBNfOLN+PsitasxmW+W9Os4oQrx081B16T4E4WogsSbpUL6hnKSnyv35sSRYA2XjBtKMOrUboL6jgw==}
     peerDependencies:
@@ -2277,7 +2286,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.0.0_eslint@8.10.0+prettier@2.5.1:
+  /eslint-plugin-prettier/4.0.0_f3d13a703a9c1079e3d1af6044603beb:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -2289,6 +2298,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.10.0
+      eslint-config-prettier: 8.5.0_eslint@8.10.0
       prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: false
@@ -4517,15 +4527,6 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
-    dev: false
-
-  /prettier-plugin-tailwindcss/0.1.8_prettier@2.5.1:
-    resolution: {integrity: sha512-hwarSBCswAXa+kqYtaAkFr3Vop9o04WOyZs0qo3NyvW8L7f1rif61wRyq0+ArmVThOuRBcJF5hjGXYk86cwemg==}
-    engines: {node: '>=12.17.0'}
-    peerDependencies:
-      prettier: '>=2.2.0'
-    dependencies:
-      prettier: 2.5.1
     dev: false
 
   /prettier/2.5.1:
