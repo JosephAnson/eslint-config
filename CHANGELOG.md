@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/JosephAnson/eslint-config-vue-2/compare/v0.5.0...v0.6.0) (2022-03-12)
+
+
+### Bug Fixes
+
+* remove prettier tailwind plugin ([58ce028](https://github.com/JosephAnson/eslint-config-vue-2/commit/58ce02817dd70b9aea37bc678de19414e0e65481))
+
+
+### Features
+
+* add sonarjs package to eslint rules ([61b1109](https://github.com/JosephAnson/eslint-config-vue-2/commit/61b1109a6d40402056ff038dd0767579876a04e5))
+
+
+
+
+
 # [0.5.0](https://github.com/JosephAnson/eslint-config-vue-2/compare/v0.4.1...v0.5.0) (2022-03-11)
 
 
