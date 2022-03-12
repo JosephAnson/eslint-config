@@ -17,10 +17,10 @@ importers:
   packages/all:
     specifiers:
       '@josephanson/eslint-config-prettier': ^0.6.0
-      '@josephanson/eslint-config-react': ^0.6.0
-      '@josephanson/eslint-config-vue': ^0.6.0
+      '@josephanson/eslint-config-react': ^0.6.1
+      '@josephanson/eslint-config-vue': ^0.6.1
       '@typescript-eslint/eslint-plugin': ^5.13.0
-      '@typescript-eslint/parser': ^5.13.0
+      '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.10.0
       eslint-config-standard: 17.0.0-1
       eslint-plugin-eslint-comments: ^3.2.0
@@ -38,8 +38,8 @@ importers:
       '@josephanson/eslint-config-prettier': link:../prettier
       '@josephanson/eslint-config-react': link:../react
       '@josephanson/eslint-config-vue': link:../vue3
-      '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
-      '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
+      '@typescript-eslint/eslint-plugin': 5.13.0_f4054b8c3cd621db16ae1b9d571bccc0
+      '@typescript-eslint/parser': 5.14.0_eslint@8.10.0+typescript@4.6.2
       eslint-config-standard: 17.0.0-1_4ef2f4f4771997ec726ac5d259d18bf3
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.10.0
       eslint-plugin-html: 6.2.0
@@ -107,7 +107,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.6.0
+      '@josephanson/eslint-config-ts': ^0.6.1
       eslint: ^8.10.0
       eslint-plugin-react: ^7.29.3
       react: ^17.0.2
@@ -122,7 +122,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@josephanson/eslint-config-basic': ^0.6.0
+      '@josephanson/eslint-config-basic': ^0.6.1
       '@typescript-eslint/eslint-plugin': ^5.14.0
       '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.11.0
@@ -135,7 +135,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.6.0
+      '@josephanson/eslint-config-ts': ^0.6.1
       eslint: ^8.11.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -146,7 +146,7 @@ importers:
 
   packages/vue3:
     specifiers:
-      '@josephanson/eslint-config-ts': ^0.6.0
+      '@josephanson/eslint-config-ts': ^0.6.1
       eslint: ^8.11.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -1123,7 +1123,7 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: false
 
-  /@typescript-eslint/eslint-plugin/5.13.0_33fffc354ccfa91fbe7d1677b9395a0a:
+  /@typescript-eslint/eslint-plugin/5.13.0_f4054b8c3cd621db16ae1b9d571bccc0:
     resolution: {integrity: sha512-vLktb2Uec81fxm/cfz2Hd6QaWOs8qdmVAZXLdOBX6JFJDhf6oDZpMzZ4/LZ6SFM/5DgDcxIMIvy3F+O9yZBuiQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1134,7 +1134,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
+      '@typescript-eslint/parser': 5.14.0_eslint@8.10.0+typescript@4.6.2
       '@typescript-eslint/scope-manager': 5.13.0
       '@typescript-eslint/type-utils': 5.13.0_eslint@8.10.0+typescript@4.6.2
       '@typescript-eslint/utils': 5.13.0_eslint@8.10.0+typescript@4.6.2
@@ -1177,8 +1177,8 @@ packages:
       - supports-color
     dev: false
 
-  /@typescript-eslint/parser/5.13.0_eslint@8.10.0+typescript@4.6.2:
-    resolution: {integrity: sha512-GdrU4GvBE29tm2RqWOM0P5QfCtgCyN4hXICj/X9ibKED16136l9ZpoJvCL5pSKtmJzA+NRDzQ312wWMejCVVfg==}
+  /@typescript-eslint/parser/5.14.0_eslint@8.10.0+typescript@4.6.2:
+    resolution: {integrity: sha512-aHJN8/FuIy1Zvqk4U/gcO/fxeMKyoSv/rS46UXMXOJKVsLQ+iYPuXNbpbH7cBLcpSbmyyFbwrniLx5+kutu1pw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -1187,9 +1187,9 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/scope-manager': 5.13.0
-      '@typescript-eslint/types': 5.13.0
-      '@typescript-eslint/typescript-estree': 5.13.0_typescript@4.6.2
+      '@typescript-eslint/scope-manager': 5.14.0
+      '@typescript-eslint/types': 5.14.0
+      '@typescript-eslint/typescript-estree': 5.14.0_typescript@4.6.2
       debug: 4.3.2
       eslint: 8.10.0
       typescript: 4.6.2
