@@ -11,6 +11,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
+    'plugin:sonarjs/recommended',
   ],
   ignorePatterns: [
     '*.min.*',
@@ -29,7 +30,7 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn'],
+  plugins: ['html', 'unicorn', 'sonarjs'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
@@ -273,6 +274,10 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
+
+    // sonarjs
+    // String literals should not be duplicated
+    'sonarjs/no-duplicate-string': 'error',
 
     'no-use-before-define': [
       'error',
