@@ -1,6 +1,6 @@
 {
   "name": "@josephanson/eslint-config",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@josephanson/eslint-config-prettier": "^0.6.0",
-    "@josephanson/eslint-config-react": "^0.6.0",
-    "@josephanson/eslint-config-vue": "^0.6.0",
+    "@josephanson/eslint-config-react": "^0.6.1",
+    "@josephanson/eslint-config-vue": "^0.6.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-standard": "17.0.0-1",
